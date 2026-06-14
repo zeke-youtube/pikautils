@@ -1,0 +1,36 @@
+{
+    "geode": "5.7.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "pika.pikautils",
+    "name": "PikaUtils",
+    "version": "v1.0.2",
+    "developer": "Zeke",
+    "description": "Useful tools and stats for Geometry Dash.",
+    "dependencies": {
+        "geode.node-ids": ">=v1.23.3"
+    },
+    "resources": {
+        "files": [
+            "pika.pikautils/oiia-cat-death.mp3"
+        ]
+    },
+    "settings": {
+        "enable-rpc": {
+            "name": "Enable Discord Rich Presence",
+            "description": "Show Geometry Dash stats on Discord.",
+            "type": "bool",
+            "default": true
+        },
+        "click-between-frames": {
+            "name": "Click Between Frames",
+            "description": "Queue player inputs between physics steps.",
+            "type": "bool",
+            "default": true
+        }
+    }
+}
